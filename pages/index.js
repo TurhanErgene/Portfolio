@@ -14,6 +14,7 @@ import { ChevronRightIcon } from '@chakra-ui/icons'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
+import Title from '../components/title'
 
 const Page = () => {
   return (
@@ -33,7 +34,14 @@ const Page = () => {
           <Heading as="h2" variant="page-title">
             Turhan Ergene
           </Heading>
-          <p>Digital Craftman</p>
+
+          <Text
+            bgGradient="linear(to-l, #7928CA, #FF0080)"
+            bgClip="text"
+            fontSize="4xl"
+          >
+            <Title />
+          </Text>
         </Box>
         <Box
           flexShrink={0}
@@ -83,24 +91,30 @@ const Page = () => {
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
           Bio
-          </Heading>
-          <BioSection>
-            <BioYear>1999</BioYear>
-            Born in Istanbul, Turkey.
-          </BioSection>
-          <BioSection>
-            <BioYear>2020 - 2021</BioYear>
-            Developed little games
-          </BioSection>
+        </Heading>
+        <BioSection>
+          <BioYear>1999</BioYear>
+          Born in Istanbul, Turkey.
+        </BioSection>
+        <BioSection>
+          <BioYear>2020 - 2021</BioYear>
+          Developed little games
+        </BioSection>
+        <BioSection>
+          <BioYear>2021 - Present</BioYear>
+          Working on web applications and data science
+        </BioSection>
       </Section>
 
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
           I ♥;
-          </Heading>
-          <Paragraph>
-            Any kind of art but my favorites are digital art, <Link href="https://vsco.co/turhan-erg/gallery">photography</Link>, music and Muay Thai.
-          </Paragraph>
+        </Heading>
+        <Paragraph>
+          Any kind of art but my favorites are digital art,{' '}
+          <Link href="https://vsco.co/turhan-erg/gallery">photography</Link>,
+          music and Muay Thai.
+        </Paragraph>
       </Section>
     </Container>
   )
