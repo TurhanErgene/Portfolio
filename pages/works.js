@@ -7,6 +7,8 @@ import memories from '../public/images/Memories.png'
 import chatapp from '../public/images/Chatapp.png'
 import realestate from '../public/images/realestateapp.png'
 import todo from '../public/images/todo.png'
+import yelp from '../public/images/yelp.png'
+
 
 const Works = () => {
   return (
@@ -36,6 +38,16 @@ const Works = () => {
         </Section>
 
         <Section delay={0.2}>
+          <WorkGridItem
+            id="yelp"
+            title="Yelp App"
+            thumbnail={yelp}
+          >
+            This app created with PERN stack. Yelp is a platform where people can review and rate businesses. In this clone app you can create a review, rate a business and also search for businesses. You can also see the reviews of the businesses you have visited. 
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.3}>
           <WorkGridItem id="todo" title="To Do App" thumbnail={todo}>
             This is a complete frontend project that was created with React Js.
             ToDo app is used to track the tasks that you want to complete. You
@@ -46,7 +58,7 @@ const Works = () => {
           </WorkGridItem>
         </Section>
 
-        <Section delay={0.3}>
+        <Section delay={0.4}>
           <WorkGridItem
             id="realestate"
             title="Real Estate App"
