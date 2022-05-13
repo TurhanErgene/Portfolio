@@ -5,8 +5,11 @@ import {
   Image,
   useColorModeValue,
   Link,
+  List,
+  ListItem,
   Button,
-  Text
+  Text,
+  Icon
 } from '@chakra-ui/react'
 import NextLink from 'next/link'
 import { ChevronRightIcon } from '@chakra-ui/icons'
@@ -16,6 +19,7 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Title from '../components/title'
 import Layout from '../components/layouts/article'
+import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 
 const Page = () => {
   return (
@@ -100,7 +104,7 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2020 - 2021</BioYear>
-            Developed little games
+            Developed some little games
           </BioSection>
           <BioSection>
             <BioYear>2021 - Present</BioYear>
@@ -115,8 +119,39 @@ const Page = () => {
           <Paragraph>
             Any kind of art but my favorites are digital art,{' '}
             <Link href="https://vsco.co/turhan-erg/gallery">photography</Link>,
-            music and Muay Thai.
+            jazz and Muay Thai.
           </Paragraph>
+        </Section>
+
+        <Section delay={0.3}>
+          <Heading as="h3" variant="section-title">
+            Social Media Accounts
+          </Heading>
+          <List>
+            <ListItem>
+              <Link href="https://github.com/TurhanErgene" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<Icon as={IoLogoGithub} />}
+                >
+                  @TurhanErgene
+                </Button>
+              </Link>
+            </ListItem>
+
+            <ListItem>
+              <Link href="https://www.linkedin.com/in/turhan-e-b25916113/" target="_blank">
+                <Button
+                  variant="ghost"
+                  colorScheme="teal"
+                  leftIcon={<Icon as={IoLogoLinkedin} />}
+                >
+                  @TurhanErgene
+                </Button>
+              </Link>
+            </ListItem>
+          </List>
         </Section>
       </Container>
     </Layout>

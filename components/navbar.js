@@ -74,9 +74,9 @@ const Navbar = props => {
           <LinkItem href="/posts" path={path}>
             Posts
           </LinkItem>
-          <LinkItem href="/sketches" path={path}>
+          {/* <LinkItem href="/sketches" path={path}>
             Digital Art
-          </LinkItem>
+          </LinkItem> */}
         </Stack>
         <Box flex={1} align="right">
 
