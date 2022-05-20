@@ -15,7 +15,7 @@ const Work = () => {
           Memories is a web app where you can write about a memory of yours. The
           project runs around the CRUD concept. Cannot make the project public
           yet due to some API credentials. Membership features will be added
-          soon! I am also thinking to make a similar project with different
+          soon! Also, I am thinking to make a similar project with different
           technologies, stay tuned :D
         </P>
         <List ml={4} my={4}>
