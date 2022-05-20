@@ -4,7 +4,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import memories from '../public/images/Memories.png'
-import chatapp from '../public/images/Chatapp.png'
+import chatapp from '../public/images/chatapp.png'
 import realestate from '../public/images/realestateapp.png'
 import todo from '../public/images/todo.png'
 import yelp from '../public/images/yelp.png'

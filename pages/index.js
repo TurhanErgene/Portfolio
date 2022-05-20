@@ -62,7 +62,7 @@ const Page = () => {
               maxWidth="125px"
               display="inline-block"
               borderRadius="full"
-              src="/images/CVpic.jpg"
+              src="/images/cvpic.jpg"
               alt="CV pic"
             />
           </Box>
