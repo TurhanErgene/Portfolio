@@ -72,7 +72,7 @@ const Page = () => {
             Work
           </Heading>
           <Paragraph>
-            I am a freelancer full-stack developer based in Malmö. I have been
+            I am a freelance full-stack developer based in Malmö. I have been
             working with Javascript and its libraries and frameworks like React
             and Node Js for a while. I have created a bunch of{' '}
             <a
@@ -83,7 +83,7 @@ const Page = () => {
             >
               <Link>projects</Link>
             </a>{' '}
-            with them.
+            with them. Recently, I also started to be interested in machine learning and FastAPI.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink passHref href="/works" scroll={false}>
@@ -118,8 +118,8 @@ const Page = () => {
           </Heading>
           <Paragraph>
             Any kind of art but my favorites are digital art,{' '}
-            <Link href="https://vsco.co/turhan-erg/gallery">photography</Link>,
-            jazz and Muay Thai.
+            <Link href="https://vsco.co/turhan-erg/gallery">photography</Link>,&nbsp;
+           jazz🎷and Muay Thai🥊.
           </Paragraph>
         </Section>
 

@@ -9,7 +9,6 @@ import realestate from '../public/images/realestateapp.png'
 import todo from '../public/images/todo.png'
 import yelp from '../public/images/yelp.png'
 
-
 const Works = () => {
   return (
     <Container>
@@ -21,9 +20,7 @@ const Works = () => {
         <Section>
           <WorkGridItem id="memories" title="Memories" thumbnail={memories}>
             Memories is a web app where you can write about a memory of yours.
-            The project runs around the CRUD concept. Cannot make the project
-            public yet due to some API credentials. Membership feature will be
-            added soon!
+            The project runs around the CRUD concept.
           </WorkGridItem>
         </Section>
 
@@ -33,28 +30,22 @@ const Works = () => {
             title="RealTime Chat App"
             thumbnail={chatapp}
           >
-            A realtime chat application that created with vanilla javascript on frontend and node js on backend.
+            A realtime chat application that created with vanilla javascript on
+            frontend and node js on backend.
           </WorkGridItem>
         </Section>
 
         <Section delay={0.2}>
-          <WorkGridItem
-            id="yelp"
-            title="Yelp App"
-            thumbnail={yelp}
-          >
-            This app created with PERN stack. Yelp is a platform where people can review and rate businesses. In this clone app you can create a review, rate a business and also search for businesses. You can also see the reviews of the businesses you have visited. 
+          <WorkGridItem id="yelp" title="Yelp App" thumbnail={yelp}>
+            This app created with PERN stack. Yelp is a platform where people
+            can review and rate businesses.
           </WorkGridItem>
         </Section>
 
         <Section delay={0.3}>
           <WorkGridItem id="todo" title="To Do App" thumbnail={todo}>
             This is a complete frontend project that was created with React Js.
-            ToDo app is used to track the tasks that you want to complete. You
-            can simply create a task by typing it in the text field and clicking
-            the plus button creates the task then you can mark it as completed
-            or delete it. You can sort the tasks by either if it is completed or
-            not.
+            ToDo app is used to track the tasks that you want to complete.
           </WorkGridItem>
         </Section>
 
@@ -64,7 +55,8 @@ const Works = () => {
             title="Real Estate App"
             thumbnail={realestate}
           >
-            A real estate web application using many technologies as on this website. 
+            A real estate web application using many technologies as on this
+            website such as Next Js and Chakra-UI.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
