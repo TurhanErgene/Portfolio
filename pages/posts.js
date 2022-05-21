@@ -5,7 +5,7 @@ import { GridItem } from '../components/grid-item'
 
 import directoryService from '../public/images/directoryService.jpg'
 import dhcp from '../public/images/dhcp.png'
-import ADDNS from '../public/images/ad_dns.png'
+import addns from '../public/images/ad_dns.png'
 import Network from '../public/images/manageNetwork.png'
 
 const posts = () => {
@@ -38,7 +38,7 @@ const posts = () => {
 
             <GridItem
               title="AD and DNS"
-              thumbnail={ADDNS}
+              thumbnail={addns}
               href="https://docs.google.com/document/d/1IcKOl9TARdR8GRoVpECkd6kVId9nU35jWV2SHsY1BYQ/edit?usp=sharing"
             >
               Have ever been interested in how to set up AD and DNS for your
