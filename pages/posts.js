@@ -6,7 +6,7 @@ import { GridItem } from '../components/grid-item'
 import directoryService from '../public/images/directoryService.jpg'
 import dhcp from '../public/images/dhcp.png'
 import addns from '../public/images/ad_dns.png'
-import Network from '../public/images/manageNetwork.png'
+import network from '../public/images/manageNetwork.png'
 
 const posts = () => {
   return (
@@ -48,7 +48,7 @@ const posts = () => {
 
             <GridItem
               title="Nätverkstjänster"
-              thumbnail={Network}
+              thumbnail={network}
               href="https://docs.google.com/document/d/1WduohShYqaIVo088N7JL7kpcGXvKMRc8_Wa7oGJacIw/edit?usp=sharing"
             >
               You want to connect a printer or another computer in your network?
