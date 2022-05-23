@@ -5,7 +5,7 @@ import { GridItem } from '../components/grid-item'
 
 import directoryService from '../public/images/directoryService.jpg'
 import dhcp from '../public/images/dhcp.png'
-import addns from '../public/images/ad_dns.png'
+import addns from '../public/images/AD_DNS.png'
 import network from '../public/images/manageNetwork.png'
 
 const posts = () => {
